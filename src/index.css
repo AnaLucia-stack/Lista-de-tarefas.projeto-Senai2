@@ -1,0 +1,93 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffe6f0; /* rosa claro */
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+div {
+  background-color: #fff0f6; /* rosa super clarinho */
+  padding: 25px 35px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(255, 192, 203, 0.5); /* sombra rosa */
+  width: 420px;
+}
+
+h1 {
+  text-align: center;
+  color: #d6336c; /* rosa forte */
+  font-weight: bold;
+  font-size: 2.4rem;
+  margin-bottom: 25px;
+}
+
+input[type="text"] {
+  width: calc(100% - 110px);
+  padding: 10px 15px;
+  margin-right: 12px;
+  border: 2px solid #f8bbd0;
+  border-radius: 25px;
+  font-size: 1.1rem;
+  transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #d6336c;
+  outline: none;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 25px;
+  background-color: #f06292; /* rosa médio */
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #d6336c; /* rosa escuro */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 25px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1.5px solid #ffc1d9;
+}
+
+li span {
+  flex: 1;
+  font-size: 1.2rem;
+  color: #a41648;
+}
+
+li span.concluida {
+  text-decoration: line-through;
+  color: #f48fb1;
+  font-style: italic;
+}
+
+li button {
+  background-color: #f48fb1; /* rosa clarinho */
+  padding: 6px 12px;
+  margin-left: 10px;
+  font-size: 0.9rem;
+  border-radius: 15px;
+}
+
+li button:hover {
+  background-color: #a41648; /* rosa bem forte */
+  color: white;
+}
