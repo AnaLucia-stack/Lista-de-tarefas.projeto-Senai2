@@ -12,7 +12,7 @@ function Lista({ tarefas, setTarefas }) {
   };
 
   return (
-    <div>
+    <div class="container">
       <input 
         type="text" 
         value={novaTarefa} 

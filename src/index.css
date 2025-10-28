@@ -6,12 +6,14 @@ body {
   margin-top: 50px;
 }
 
-div {
+.container{
+  border: 1px solid #f48fb1;
   background-color: #fff0f6; /* rosa super clarinho */
   padding: 25px 35px;
   border-radius: 15px;
-  box-shadow: 0 6px 15px rgba(255, 192, 203, 0.5); /* sombra rosa */
+  box-shadow: 2 6px 15px rgba(149, 89, 99, 0.5); /* sombra rosa */
   width: 420px;
+  text-align: center;
 }
 
 h1 {
